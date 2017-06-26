@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@+id/iv_circle_out" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@mipmap/iv_circle_out" />
+    <ImageView android:id="@+id/iv_circle_mid" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="15.0dip" android:src="@mipmap/iv_circle_mid" />
+    <ImageView android:id="@+id/iv_circle_mid_leak" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="15.0dip" android:src="@mipmap/iv_circle_mid_leak" />
+    <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="25.0dip">
+        <ImageView android:id="@+id/iv_circle_in" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@mipmap/iv_circle_in" />
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="center" android:id="@+id/iv_voltage_alarm" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:src="@mipmap/iv_low_voltage" />
+            </LinearLayout>
+            <TextView android:textSize="16.0sp" android:textColor="@color/white_theme" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/tv_temperature_data" android:layout_width="wrap_content" android:layout_height="0.0dip" android:text="0 °C" android:layout_weight="1.0" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/white_theme" android:gravity="center" android:id="@+id/tv_pressure_data" android:layout_width="wrap_content" android:layout_height="0.0dip" android:text="0 bar" android:layout_weight="1.0" />
+            <TextView android:textSize="10.0sp" android:textStyle="bold" android:textColor="@color/white_theme" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/tv_pressure_alarm" android:background="@drawable/bg_pressure_state" android:padding="2.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:text="气压过低" android:layout_weight="1.0" />
+        </LinearLayout>
+    </FrameLayout>
+    <TextView android:textStyle="bold" android:textColor="@color/white_theme" android:gravity="center" android:layout_gravity="center" android:id="@+id/tv_no_Device" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

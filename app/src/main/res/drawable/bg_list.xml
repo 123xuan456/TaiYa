@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/bg_listview_top" />
+        </shape>
+    </item>
+    <item android:top="1.0dip">
+        <shape>
+            <gradient android:startColor="@color/gradient_start" android:endColor="@color/gradient_end" android:angle="270.0" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@color/bg_listview_button" />
+        </shape>
+    </item>
+    <item android:bottom="1.0dip">
+        <shape>
+            <gradient android:startColor="@color/gradient_start" android:endColor="@color/gradient_end" android:angle="270.0" />
+        </shape>
+    </item>
+</layer-list>

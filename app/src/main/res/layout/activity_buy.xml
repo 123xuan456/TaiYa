@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@mipmap/bg_system" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/activity_title" />
+    <View android:background="@color/divider_bg" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <Button android:textSize="20.0sp" android:textColor="@color/white_theme" android:layout_gravity="center_horizontal" android:id="@+id/btn_buy" android:background="@drawable/bg_btn" android:layout_width="180.0dip" android:layout_height="wrap_content" android:layout_marginTop="100.0dip" android:text="@string/click_buy" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@+id/iv_qr" android:layout_width="180.0dip" android:layout_height="wrap_content" android:layout_marginTop="45.0dip" android:src="@mipmap/iv_qr_code" android:scaleType="fitXY" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <TextView android:textSize="18.0sp" android:textColor="@color/white_theme" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/scan_buy" />
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@mipmap/drawble_top" />
+    </LinearLayout>
+</LinearLayout>

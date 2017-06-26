@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/activity_title1" />
+    <View android:background="@color/divider_bg" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <FrameLayout android:background="@mipmap/bg_system" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/bg_device" android:layout_width="150.0dip" android:layout_height="150.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="30.0dip">
+            <TextView android:textSize="24.0sp"
+                      android:textStyle="bold"
+                      android:textColor="@color/white_theme"
+                      android:gravity="center"
+                      android:id="@+id/tv_num_left_front"
+                      android:background="@drawable/bg_theme_color"
+                      android:layout_width="fill_parent"
+                      android:layout_height="0.0dip"
+                      android:text="@string/id_order_left_front"
+                      android:layout_weight="1.0" />
+            <TextView android:textSize="24.0sp"
+                      android:textColor="@drawable/bg_textclick"
+                      android:textColorHint="@color/white_theme"
+                      android:gravity="center"
+                      android:id="@+id/tv_address_left_front"
+                      android:background="@drawable/bg_edittext"
+                      android:layout_width="fill_parent"
+                      android:layout_height="0.0dip"
+                      android:hint="请输入轮胎id"
+                      android:layout_weight="3.0" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="right" android:orientation="vertical" android:background="@drawable/bg_device" android:layout_width="150.0dip" android:layout_height="150.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="10.0dip">
+            <TextView android:textSize="24.0sp" android:textStyle="bold"
+                      android:textColor="@color/white_theme"
+                      android:gravity="center" android:id="@+id/tv_num_right_front" android:background="@drawable/bg_theme_color" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/id_order_right_front" android:layout_weight="1.0" />
+            <TextView android:textSize="24.0sp" android:textColor="@drawable/bg_textclick" android:textColorHint="@color/white_theme" android:gravity="center" android:id="@+id/tv_address_right_front" android:background="@drawable/bg_edittext" android:layout_width="fill_parent" android:layout_height="0.0dip" android:hint="请输入轮胎id" android:layout_weight="3.0" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/bg_device" android:layout_width="150.0dip" android:layout_height="150.0dip" android:layout_marginLeft="10.0dip" android:layout_marginBottom="30.0dip">
+            <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="@color/white_theme" android:gravity="center" android:id="@+id/tv_num_left_rear" android:background="@drawable/bg_theme_color" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/id_order_left_rear" android:layout_weight="1.0" />
+            <TextView android:textSize="24.0sp" android:textColor="@drawable/bg_textclick" android:textColorHint="@color/white_theme" android:gravity="center" android:id="@+id/tv_address_left_rear" android:background="@drawable/bg_edittext" android:layout_width="fill_parent" android:layout_height="0.0dip" android:hint="请输入轮胎id" android:layout_weight="3.0" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="bottom|center|right" android:orientation="vertical" android:background="@drawable/bg_device" android:layout_width="150.0dip" android:layout_height="150.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="30.0dip">
+            <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="@color/white_theme" android:gravity="center" android:id="@+id/tv_num_right_rear" android:background="@drawable/bg_theme_color" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/id_order_right_rear" android:layout_weight="1.0" />
+            <TextView android:textSize="24.0sp" android:textColor="@drawable/bg_textclick" android:textColorHint="@color/white_theme" android:gravity="center" android:id="@+id/tv_address_right_rear" android:background="@drawable/bg_edittext" android:layout_width="fill_parent" android:layout_height="0.0dip" android:hint="请输入轮胎id" android:layout_weight="3.0" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/iv_car" android:scaleX="0.8" android:scaleY="0.8" />
+    </FrameLayout>
+</LinearLayout>

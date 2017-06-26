@@ -1,0 +1,58 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@mipmap/bg_system"
+             tools:context=".fragment.TpmsFragment">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="8.0">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:weightSum="2.0"
+            android:layout_weight="3.0">
+            <!--<com.example.administrator.taiya.view.TyreViewLayout-->
+                <!--android:id="@+id/tyre_left_front"-->
+                <!--style="@style/TyreViewTheme" />-->
+            <!--<com.example.administrator.taiya.view.TyreViewLayout-->
+                <!--android:id="@+id/tyre_right_front"-->
+                <!--style="@style/TyreViewTheme" />-->
+        </LinearLayout>
+        <View android:layout_width="fill_parent"
+              android:layout_height="0.0dip"
+              android:layout_weight="2.0" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:weightSum="2.0"
+            android:layout_weight="3.0">
+            <!--<com.example.administrator.taiya.view.TyreViewLayout-->
+                <!--android:id="@+id/tyre_left_rear"-->
+                <!--style="@style/TyreViewTheme" />-->
+            <!--<com.example.administrator.taiya.view.TyreViewLayout-->
+                <!--android:id="@+id/tyre_right_rear"-->
+                <!--style="@style/TyreViewTheme" />-->
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:layout_gravity="center"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginBottom="5.0dip"
+               android:src="@mipmap/iv_car"
+               android:scaleX="0.76"
+               android:scaleY="0.76" />
+    <TextView android:textSize="10.0sp"
+              android:textColor="@android:color/holo_red_dark"
+              android:layout_gravity="center"
+              android:id="@+id/tv_no_ble"
+              android:visibility="invisible"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="ble_is_not_open"
+              android:drawableTop="@mipmap/iv_no_ble" />
+
+</FrameLayout>

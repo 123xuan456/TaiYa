@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">智能胎压</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Installation_instructions">设备安装说明</string>
+    <string name="add_widget">Add widget</string>
+    <string name="agreen_content">"1. 请确保使用前已详细阅读产品使用说明书；
+2. 请确保此应用程序运行在系统和蓝牙稳定的智能设备上面；
+3. 应用程序的胎温胎压数据用于参考，请关注行车安全和提醒；
+4. 在您驾驶时，请避免操作此产品，以免发生人身危险。"</string>
+    <string name="agreen_term">下次不再提示</string>
+    <string name="already_last_version">当前已是最新版本</string>
+    <string name="app_instructions">APP使用说明</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="auto_start">开机自动启动</string>
+    <string name="ble_close">蓝牙已关闭，智能胎压停止工作！</string>
+    <string name="ble_is_not_open">蓝牙未打开</string>
+    <string name="ble_open">蓝牙已开启，智能胎压开始工作！</string>
+    <string name="cancel">取消</string>
+    <string name="carry_on">接 受</string>
+    <string name="ceiling">上限</string>
+    <string name="click_buy">点击购买</string>
+    <string name="current_version">当前版本:</string>
+    <string name="data_form">(由0-9，a-f，A-F组成)</string>
+    <string name="device_scan_id">正在扫描...</string>
+    <string name="device_scan_no_id">未搜索到设备</string>
+    <string name="download_app">扫描下载APP</string>
+    <string name="download_failed">下载失败！</string>
+    <string name="download_success">下载成功！</string>
+    <string name="download_update">下载更新</string>
+    <string name="downloading">正在下载最新版本</string>
+    <string name="error_tire_id">轮胎编号输入错误</string>
+    <string name="floor">下限</string>
+    <string name="ghost">恢复默认设置</string>
+    <string name="help_auto">"分别点击未绑定轮胎自动扫描框，弹出倒计时框，按以下两种方式之一完成自动配对：
+
+1、将对应设备安装电池触发设备发射信号完成绑定
+
+2、将对应设备安装到轮胎或从轮胎拆卸，触发设备发射信号完成绑定"</string>
+    <string name="help_change">绑定设备后安装到轮胎上时，可能出现轮胎编号对应错误，这时只需依次双击出错的两个编号，即可对调</string>
+    <string name="help_manual">分别点击未绑定轮胎的ID输入框，在弹出框输入轮胎编号，绑定设备</string>
+    <string name="high_temperature">温度过高</string>
+    <string name="home_voice">智能胎压，将持续为您监测。</string>
+    <string name="id_order_left_front">左前</string>
+    <string name="id_order_left_rear">左后</string>
+    <string name="id_order_right_front">右前</string>
+    <string name="id_order_right_rear">右后</string>
+    <string name="input_device_id">请输入5或6位轮胎编号</string>
+    <string name="input_tire_id">"请输入
+轮胎编号"</string>
+    <string name="is_downloading">正在下载最新版本：%1$d%%</string>
+    <string name="low_power">电量低</string>
+    <string name="manual_input">手动配对</string>
+    <string name="menu_change">调胎</string>
+    <string name="menu_device">绑定新设备</string>
+    <string name="menu_help">帮助</string>
+    <string name="menu_home">首页</string>
+    <string name="menu_setting">系统设置</string>
+    <string name="menu_shopping">立即购买</string>
+    <string name="menu_title">菜单选项</string>
+    <string name="new_version">"
+发现新版本:"</string>
+    <string name="no_ble">你的设备不支持BLE</string>
+    <string name="no_signal">无信号</string>
+    <string name="normal_voice">胎温、胎压正常，祝您一路平安。</string>
+    <string name="ok">确定</string>
+    <string name="pls_bind_device">请绑定设备</string>
+    <string name="pls_bind_device_voice">请绑定设备</string>
+    <string name="pressure_bar">Bar</string>
+    <string name="pressure_high">气压过高</string>
+    <string name="pressure_kpa">Kpa</string>
+    <string name="pressure_leak">漏气</string>
+    <string name="pressure_low">气压过低</string>
+    <string name="pressure_psi">Psi</string>
+    <string name="pressure_range">胎压监测范围设置</string>
+    <string name="prompt_message">确定恢复出厂设置吗？</string>
+    <string name="save">保存</string>
+    <string name="scan_buy">扫码购买</string>
+    <string name="scan_device">"点击
+自动扫描"</string>
+    <string name="scan_input">自动配对</string>
+    <string name="temperature_c">°C</string>
+    <string name="temperature_f">°F</string>
+    <string name="temperature_range">温度监测范围设置</string>
+    <string name="turn_down">拒 绝</string>
+    <string name="unit_pressure">胎压单位选择</string>
+    <string name="unit_temperature">温度单位选择</string>
+    <string name="update">检测更新</string>
+    <string name="update_not_now">暂不更新</string>
+    <string name="update_now">立即更新</string>
+    <string name="update_title">软件更新</string>
+    <string name="user_agreement">免责声明</string>
+    <string name="voice_alarm">语音报警</string>
+    <string name="whether_update">"
+是否更新？"</string>
+</resources>

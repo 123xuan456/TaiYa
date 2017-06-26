@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/activity_title1" />
+    <View android:background="@color/divider_bg" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="vertical" android:background="@mipmap/bg_system" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <Button android:textSize="16.0sp" android:textColor="@color/white_theme" android:id="@+id/bt_manual" android:background="@drawable/bg_theme_button" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="65.0dip" android:layout_marginTop="55.0dip" android:layout_marginRight="65.0dip" android:text="@string/manual_input" />
+        <Button android:textSize="16.0sp" android:textColor="@color/white_theme" android:id="@+id/bt_scan" android:background="@drawable/bg_theme_button" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="65.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="65.0dip" android:text="@string/scan_input" />
+    </LinearLayout>
+</LinearLayout>
